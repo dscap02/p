@@ -27,15 +27,15 @@
 			<div class="user-details">
 				<div class="input-box">
 					<span class="details">Nome prodotto</span>
-					<input type="text" name="nome" maxlength="50" placeholder="Inserire nome prodotto" autofocus required/>
+					<input type="text" name="nome" maxlength="50" placeholder="Inserire nome prodotto" autofocus required pattern="[A-Za-z0-9]{1,50}"/>
 				</div>
 				<div class="input-box">
 					<span class="details">Prezzo</span>
-					<input type="number" step="0.01" name="prezzo" max="9999999" placeholder="Inserire prezzo" required/>
+					<input type="number" step="0.01" name="prezzo" max="9999999" placeholder="Inserire prezzo" required pattern="[A-Za-z0-9]{1,50}"/>
 				</div>
 				<div class="input-box">
 					<span class="details">Spese di spedizione</span>
-					<input type="number" step="0.01" name="spedizione" max="999" placeholder="Inserire spese di spedizione" required/>
+					<input type="number" step="0.01" name="spedizione" max="999" placeholder="Inserire spese di spedizione" required pattern="[A-Za-z0-9]{1,50}"/>
 				</div>
 				<div class="input-box">
 					<span class="details">Immagine</span>
